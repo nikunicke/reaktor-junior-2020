@@ -8,6 +8,7 @@ Read more about the assignment [**here**](https://www.reaktor.com/junior-dev-ass
 ---
 
 My intentions with this project was *(1)* to learn how to setup a web server and run a live app on it, *(2)* get started with Golang and *(3)* refresh my skills with React.
+
 In brief, the project is divided into three parts. The server is running a [**React app**](https://github.com/nikunicke/reaktor2019-frontend/tree/9f8f250ef6f5fa2d51a1936c58dbcb3ae44da844)
 that requests data from /api/dpkg/. The data is [**parsed and updated**](https://github.com/nikunicke/jsonify/tree/93d9aafdea6f5caab4830c988fd8fde867dcac4b)
 internally whenever a new package is installed on the system.
