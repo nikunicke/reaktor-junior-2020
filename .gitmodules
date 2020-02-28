@@ -1,3 +1,6 @@
 [submodule "reaktor2019-frontend"]
 	path = reaktor2019-frontend
 	url = https://github.com/nikunicke/reaktor2019-frontend.git
+[submodule "jsonify"]
+	path = jsonify
+	url = https://github.com/nikunicke/jsonify.git
