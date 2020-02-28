@@ -20,3 +20,10 @@ To run and serve on your system
 	git submodule init
 ```
 
+In order to make this run on your system, update your path in main.go and recompile. You need to have Golang installed for this.
+The frontend build is included here and does not
+need to be rebuilt.
+
+```console
+	go build -o "binary_name"
+```
