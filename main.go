@@ -31,8 +31,8 @@ func get_dpkg_data(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	path := "/root/go/go_services/reaktor-app/static/build"
-	http.Handle("/", http.StripPrefix("/", http.FileServer(http.Dir(path))))
+	reaktor_app := "/root/go/go_services/reaktor-app/static/build"
+	http.Handle("/", http.FileServer(http.Dir(reaktor_app)))
 	http.HandleFunc("/api/dpkg/", get_dpkg_data)
 	log.Println("Server running on port: 8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
